@@ -1,0 +1,17 @@
+{
+  "author": "Dorian Alvarado",
+  "license": "MIT License",
+  "name": "giphy",
+  "version": "1.0.0",
+  "description": "A gif app just for fun",
+  "main": "index.jhtml",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass scss/application.scss styles.css",
+    "start": "npm run build & node-sass --watch scss/application.scss styles.css"
+  }
+}
